@@ -84,8 +84,12 @@
     <FlyoutItem Title="Sorgula" Icon="icon_feed.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
     </FlyoutItem>
+    <!--
     <FlyoutItem Title="ICR Okuyucu" Icon="icon_feed.png">
         <ShellContent Route="CameraViewPage" ContentTemplate="{DataTemplate local:CameraViewPage}" />
+    </FlyoutItem>-->
+    <FlyoutItem Title="Barkod Okuyucu" Icon="icon_feed.png">
+        <ShellContent Route="BarcodeScanner" ContentTemplate="{DataTemplate local:BarcodeScanner}" />
     </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
